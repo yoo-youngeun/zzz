@@ -1,10 +1,361 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="src_gen/" kind="src" path=""/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/dpimplWeb.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/dpinfraWeb.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/Gantt.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/ie3rdpartylibs.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/ieWeb.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/install.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/jmxcoreWeb.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/jviews-chart-all.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/jviews-framework-all.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/jviews-gantt-all.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/mksapi.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/mpmlWeb.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/mylyn-integration.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/odataWeb.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/oslcWeb.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/pdmlWeb.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/pjlWeb.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/ProjectManagement.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/prowtWeb.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/reqlWeb.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/restWeb.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/rialtoWeb.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/vizadaptersWeb.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/wc3rdpartylibs.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/wex-kernel.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/wncWeb.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/aopalliance.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/commons-codec.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/commons-collections.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/commons-collections4.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/commons-logging.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/dom4j.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/Gantt.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/gnu-getopt.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/httpcore.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/httpcore2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/jakarta.activation.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/jakarta.activation2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/jfreechart.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/json.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/jviews-chart-all.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/jviews-framework-all.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/jviews-gantt-all.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/log4j-api.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/log4j-core.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/log4j-jcl.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/magelang.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/pfcasync.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/ProjectManagement.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/pvxdriver.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/spring-aop.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/spring-beans.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/spring-context.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/spring-core.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/spring-web.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/vecmath.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/WtHttpClientAddOns.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/WtJmxClientConn.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/WtJmxPlugin.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/xercesImpl.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/lib/xmlParserAPIs.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/tomcat/bin/bootstrap.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/srclib/tool/AnnotationProcessing.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/srclib/tool/Annotations.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/lib/wnc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/srclib/servlet.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="src" path="src_gen">
 		<attributes>
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="output  " path=" bin"/>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/jackson-all-1.9.7.jar"/>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/datasource-proxy-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/log4jdbc-remix-0.2.7.jar"/>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/velocity-1.6.2.jar"/>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/velocity-tools-2.0.jar"/>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/commons-pool-1.6.jar"/>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/mybatis-3.2.7.jar"/>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/mybatis-spring-1.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/commons-dbcp2-2.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/ptc/Windchill_13.0/Windchill/codebase/WEB-INF/lib/commons-pool2-2.3.jar"/>
+	<classpathentry kind="output" path="codebase"/>
 </classpath>
