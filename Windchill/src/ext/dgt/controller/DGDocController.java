@@ -28,7 +28,7 @@ public class DGDocController {
 		List<WTDocument> docList = service.searchDoc(param);
 		System.out.println("-----docList-----");
 		for (WTDocument doc : docList) {
-			System.out.println(doc.getName() + "::" + doc.getDescription());
+			System.out.println(doc.getName() + ":::" + doc.getDescription());
 		}
 		mv.addObject("docList", docList);
 		
