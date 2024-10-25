@@ -26,7 +26,7 @@ public class DGDocController {
 	public ModelAndView docList(@RequestParam Map<String, Object> param) throws Exception {
 		ModelAndView mv = new ModelAndView();
 		List<WTDocument> docList = service.searchDoc(param);
-		System.out.println("---- -do cL i s t-----");
+		System.out.println("---- -d o cL i s t-----");
 		for (WTDocument doc : docList) {
 			System.out.println(doc.getName() + ":d:: :" + doc.getDescription());
 		} 
