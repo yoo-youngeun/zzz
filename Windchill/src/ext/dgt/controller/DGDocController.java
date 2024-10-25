@@ -28,8 +28,8 @@ public class DGDocController {
 		List<WTDocument> docList = service.searchDoc(param);
 		System.out.println("---- -do cL is t-----");
 		for (WTDocument doc : docList) {
-			System.out.println(doc.getName() + ":d:::" + doc.getDescription());
-		}
+			System.out.println(doc.getName() + ":d:: :" + doc.getDescription());
+		} 
 		mv.addObject("docList", docList);
 		
 		return mv;
